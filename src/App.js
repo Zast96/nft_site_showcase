@@ -7,21 +7,21 @@ const App = () => {
     <>
       <SectionWrapper
         title='You own store of Nifty NFTs. Start Selling & Growing'
-        description='Buy, store, collect NFTS, exchange & earn crypto. Join 25+ million people using ProNef Marketplace.'
+        description='Buy, store, collect NFTS, exchange & earn crypto. Join 25+ million people using Davide s NFT Marketplace.'
         showBtn
         mockupImg={assets.homeHero}
         banner='banner'
       />
       <SectionWrapper
         title='Smart User Interface Marketplace'
-        description='Experience a buttery UI of ProNef NFT Marketplace. Smooth constant colors of a fluent UI design.'
+        description='Experience a buttery UI of Davide s NFT NFT Marketplace. Smooth constant colors of a fluent UI design.'
         mockupImg={assets.homeCards}
         reverse
       />
       <Features />
       <SectionWrapper
         title='Deployment'
-        description="ProNef is built using Expo which runs natively on all users' devices. You can easily get your app into people's hands"
+        description="Davide s NFT is built using Expo which runs natively on all users' devices. You can easily get your app into people's hands"
         mockupImg={assets.feature}
         reverse
       />
