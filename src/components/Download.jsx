@@ -4,8 +4,7 @@ import assets from '../assets';
 
 const Download = () => {
   const redirectToSourceCode = () => {
-    // Redirect to the desired URL when the button is clicked
-    window.location.href = 'https://github.com/Zast96/nft_site'; // Replace with your desired URL
+    window.open('https://github.com/Zast96/nft_site', '_blank');
   };
 
   return (
@@ -19,7 +18,7 @@ const Download = () => {
             Get the full source code on GitHub
           </p>
         </div>
-        {/* Button triggering redirection */}
+
         <button className={styles.btnPrimary} onClick={redirectToSourceCode}>
           Source Code
         </button>
